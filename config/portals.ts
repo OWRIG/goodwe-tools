@@ -17,7 +17,7 @@ const portals_suffix = {
 	},
 	star: {
 		link: "/star/#/",
-		name: "综合能源管理",
+		name: "虚拟电厂管理",
 	},
 	platform: {
 		link: "/admin/#/",
