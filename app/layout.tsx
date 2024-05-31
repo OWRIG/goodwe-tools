@@ -40,19 +40,28 @@ export default function RootLayout({
 				)}
 			>
 				<Providers themeProps={{ attribute: "class", defaultTheme: "light" }}>
-					<div className="relative flex flex-col h-screen">
+					<div className="relative flex flex-col h-screen overflow-hidden">
 						<Navbar />
 						<main className="container mx-auto max-w-7xl pt-12 px-6 flex-grow">
 							{children}
 						</main>
-						<footer className="w-full flex items-center justify-center py-3">
+						<footer className="w-full flex items-center justify-center py-3 gap-2">
+							<Link
+								isExternal
+								className="flex items-center gap-1 text-current"
+								href="https://gie8j6kp4el.feishu.cn/share/base/form/shrcnHaLlyTN7XRZ7ojluJTVrUe"
+								title="开心果"
+							>
+								<span className="text-default-600">反馈建议可填写</span>
+								<p className="text-primary">收集表</p>
+							</Link>
 							<Link
 								isExternal
 								className="flex items-center gap-1 text-current"
 								href="https://www.feishu.cn/invitation/page/add_contact/?token=f84n8cf2-158f-4c09-9be5-05ff65f9f0a2"
 								title="开心果"
 							>
-								<span className="text-default-600">有问题请联系</span>
+								<span className="text-default-600">或直接联系</span>
 								<p className="text-primary">Rig</p>
 							</Link>
 						</footer>
