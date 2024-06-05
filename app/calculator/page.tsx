@@ -13,7 +13,7 @@ const Calculator = () => {
 		<div className="max-w-3xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
 			<div className="space-y-8">
 				<span className="text-xl font-bold tracking-tighter sm:text-2xl md:text-3xl">
-					光伏电站发电量
+					光伏电站发电量kWh
 				</span>
 				<div className="flex items-center space-x-4">
 					<Input
