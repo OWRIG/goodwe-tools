@@ -12,6 +12,14 @@ export const siteConfig = {
 			label: "发布版本",
 			href: "/releases",
 		},
+		{
+			label: "光伏计算器",
+			href: "/calculator",
+		},
+		{
+			label: "画板工具",
+			href: "/tldraw",
+		},
 		// {
 		//   label: "Pricing",
 		//   href: "/pricing",
