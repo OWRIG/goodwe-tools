@@ -1,0 +1,1 @@
+基于 Vite + TailwindCSS + shadcnUI + TanStack Query + TanStack Router 的前端模板
